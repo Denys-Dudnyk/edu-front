@@ -1,0 +1,111 @@
+.home {
+	@apply scroll-mt-40    h-screen;
+
+	@media (max-width: 1024px) {
+		@apply h-auto my-8;
+	}
+
+	// @media (max-width: 1024px) {
+	// 	@apply w-2/3;
+	// }
+	// @media (max-width: 680px) {
+	// 	@apply w-3/4;
+	// }
+	// @media (max-width: 375px) {
+	// 	@apply w-5/6;
+	// }
+	.homeContainer {
+		@apply cursor-default  flex  justify-between items-center;
+
+		@media (max-width: 1024px) {
+			@apply flex-wrap-reverse justify-center;
+		}
+
+		max-width: var(--max-width);
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 20px;
+		padding-right: 20px;
+
+		.left_side {
+			@apply w-1/2;
+			@media (max-width: 1024px) {
+				@apply w-full text-center;
+			}
+
+			> h1 {
+				@apply text-5xl  font-bold text-left mb-4;
+				@media (max-width: 1280px) {
+					@apply text-4xl;
+				}
+				@media (max-width: 1024px) {
+					@apply text-3xl;
+				}
+				@media (max-width: 1024px) {
+					@apply text-center mt-4;
+				}
+				@media (max-width: 768px) {
+					@apply text-2xl;
+				}
+
+				@media (max-width: 460px) {
+					line-height: 1.75rem;
+				}
+			}
+
+			> h2 {
+				@apply text-xl  mt-1  text-gray-500 text-left mb-11;
+				@media (max-width: 1280px) {
+					@apply text-xl;
+				}
+
+				@media (max-width: 1024px) {
+					@apply text-center;
+				}
+				@media (max-width: 768px) {
+					@apply text-base;
+				}
+				@media (max-width: 460px) {
+					@apply text-base;
+				}
+				@media (max-width: 320px) {
+					@apply text-sm;
+				}
+			}
+
+			> a {
+				> button {
+					@apply text-lg  font-semibold py-2 px-6 border border-yellow bg-yellow text-white rounded-md text-center transition-all hover:scale-110;
+
+					@media (max-width: 460px) {
+						@apply text-base;
+					}
+					@media (max-width: 320px) {
+						@apply py-2 px-6 text-sm;
+					}
+				}
+			}
+		}
+
+		.right_side {
+			// @media (max-width: 1024px) {
+			// 	@apply mx-auto;
+			// }
+
+			.oval {
+				@apply bg-blue animate-fade transition-opacity;
+				border-radius: 50%;
+
+				@media (max-width: 1024px) {
+					width: 75%;
+					height: 75%;
+					margin: 0 auto;
+				}
+
+				> img {
+					@apply animate-fade transition-opacity;
+				}
+			}
+		}
+	}
+}

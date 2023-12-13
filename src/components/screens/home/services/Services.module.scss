@@ -1,0 +1,212 @@
+.services {
+	@apply mt-20;
+
+	.containerServices {
+		@apply cursor-default;
+		max-width: var(--max-width);
+		margin: 0 auto;
+
+		padding-left: 20px;
+		padding-right: 20px;
+		.main_info {
+			// @apply ;
+			max-width: 608px;
+
+			> h1 {
+				@apply text-3xl mt-12 mb-2 font-bold;
+
+				@media (max-width: 768px) {
+					@apply text-2xl;
+					line-height: 32px;
+				}
+			}
+
+			> p {
+				@apply text-base mb-12 text-gray-500;
+			}
+		}
+
+		.wrapper {
+			@apply gap-8 grid-cols-2 grid;
+			&:nth-child(2) {
+				@media (max-width: 991px) {
+					@apply flex flex-col;
+					// width: 100% !important;
+					background-repeat: no-repeat;
+					background-position: right bottom;
+					// background-size: cover;
+				}
+			}
+
+			.item1 {
+				// background-color: #5fb1bd;
+				border-radius: 24px;
+				@apply bg-blue;
+				color: #fff;
+				padding: 32px 40px;
+
+				position: relative;
+				// overflow: hidden;
+				@media (max-width: 991px) {
+					min-height: 100%;
+					// height: 479px;
+					height: 100%;
+				}
+				background-repeat: no-repeat;
+				background-position: right bottom;
+				// grid-area: 1 / 1 / 2 / 3;
+				// min-height: 371px;
+				&:first-child {
+					grid-area: 1 / 1 / 2 / 3;
+					min-height: 371px;
+				}
+
+				&:last-child {
+					grid-area: 4 / 1 / 5 / 3;
+					min-height: 316px;
+					@apply bg-yellow text-black;
+				}
+
+				.row {
+					@apply flex flex-wrap;
+
+					@media (max-width: 991px) {
+						display: grid;
+						grid-template-columns: repeat(1);
+						width: 100%;
+					}
+
+					.col {
+						flex: 0 0 50%;
+						max-width: 50%;
+						@media (max-width: 991px) {
+							max-width: 100%;
+						}
+
+						.number {
+							@apply w-max py-1 px-3 bg-yellow rounded mb-4;
+							padding-top: 6px;
+							font-size: 12px;
+							line-height: 16px;
+							color: #000;
+						}
+
+						.title {
+							@apply mb-4 flex text-lg;
+							line-height: 22px;
+							font-weight: 700;
+						}
+
+						.subTitle {
+							@apply mb-14 text-sm text-left flex items-center;
+							line-height: 20px;
+							max-width: 485px;
+
+							> svg {
+								@apply ml-2;
+							}
+						}
+
+						.servicesItemImg {
+							color: #000;
+
+							.itemTitle {
+								@apply flex justify-between;
+								.imgGirl {
+									background-image: url('../../../../../public/Universities/student-girl.png');
+									// background-repeat: no-repeat;
+									// background-position: right bottom;
+									// background-size: cover;
+									width: 626px;
+									height: 418px;
+
+									@media (max-width: 690px) {
+										display: none;
+									}
+									// border-radius: 50%;
+									// overflow: hidden;
+									display: -webkit-box;
+									display: -ms-flexbox;
+									display: flex;
+									align-items: center;
+									-webkit-box-pack: center;
+									-ms-flex-pack: center;
+									justify-content: center;
+									// background-image: url('../../../../..//public/Universities/ukfUni.jpg');
+									background-repeat: no-repeat;
+									background-size: cover;
+								}
+							}
+						}
+
+						.servicesItem {
+							margin-top: 33px;
+							color: #000;
+							max-width: 400px;
+							width: 100%;
+							background: #fff;
+							@apply rounded-2xl py-6 px-5;
+
+							@media (max-width: 991px) {
+								margin-left: auto;
+								// margin-right: -97px;
+							}
+
+							.itemTitle {
+								@apply flex justify-between;
+								.uniTitle {
+									max-width: 200px;
+									@apply mb-4 flex;
+									font-weight: 700;
+								}
+
+								.img {
+									width: 84px;
+									height: 84px;
+									@media (max-width: 440px) {
+										width: auto;
+										height: auto;
+									}
+									border-radius: 50%;
+									// overflow: hidden;
+									display: -webkit-box;
+									display: -ms-flexbox;
+									display: flex;
+									-webkit-box-pack: center;
+									-ms-flex-pack: center;
+									justify-content: center;
+									background-image: url('../../../../..//public/Universities/ukfUni.jpg');
+									background-repeat: no-repeat;
+									background-size: cover;
+
+									> img {
+										height: 100%;
+									}
+								}
+							}
+
+							.subTitle {
+								color: #5b5950;
+								margin-bottom: 16px;
+							}
+
+							> a {
+								width: 111px;
+								height: 34px;
+								font-weight: 300;
+								font-size: 12px;
+								transition: 0.3s;
+								@apply bg-yellow rounded flex justify-center items-center;
+
+								&:hover {
+									color: #fff;
+									background: #d9a900;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

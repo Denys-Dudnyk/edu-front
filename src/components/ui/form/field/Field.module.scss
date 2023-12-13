@@ -1,0 +1,23 @@
+.field {
+	@apply relative    transition-colors  text-left py-2 mt-5;
+	&.errorField {
+		@apply border-[#ff0000];
+	}
+	> label {
+		@apply block;
+
+		> span {
+			@apply text-xs  opacity-50;
+		}
+		> input {
+			@apply outline-none focus:ring-0 bg-transparent w-full m-0 p-2 rounded focus-within:border-yellow; //px-0
+
+			border: 1px solid #dbdbdb;
+		}
+	}
+}
+
+.error {
+	@apply absolute -bottom-6 left-0 text-sm w-full;
+	color: #ff0000;
+}

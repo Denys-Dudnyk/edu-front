@@ -1,0 +1,147 @@
+.reviews {
+	@apply mt-20;
+
+	.containerReviews {
+		@apply cursor-default;
+		max-width: var(--max-width);
+		// margin-left: auto;
+		// margin-right: auto;
+		margin: 0 auto;
+		padding-left: 20px;
+		padding-right: 20px;
+
+		> h1 {
+			@apply text-3xl mt-12   text-left   w-1/2 mb-2;
+			@media (max-width: 768px) {
+				@apply w-full text-2xl;
+			}
+			@media (max-width: 580px) {
+				@apply text-center;
+			}
+		}
+		> p {
+			@apply text-left text-base mb-12  w-1/3 text-gray-500;
+
+			@media (max-width: 768px) {
+				@apply w-1/2;
+			}
+			@media (max-width: 580px) {
+				@apply w-full text-center;
+			}
+		}
+
+		.swiperMain {
+			width: 100% !important;
+			height: 100% !important;
+			@media (max-width: 768px) {
+				height: 70% !important;
+			}
+			@media (max-width: 640px) {
+				height: 60% !important;
+			}
+
+			.swiperSlide {
+				@apply flex items-center justify-start py-4 px-4 flex-shrink;
+
+				@media (max-width: 580px) {
+					@apply flex items-center justify-center;
+
+					// &:last-child {
+					// 	@apply mr-0;
+					// }
+				}
+
+				width: 60% !important;
+				height: 100% !important;
+				@media (max-width: 768px) {
+					width: 70% !important;
+				}
+				@media (max-width: 640px) {
+					width: 100% !important;
+				}
+			}
+
+			.review_item {
+				width: 500px;
+				height: 342px;
+				@media (max-width: 884px) {
+					height: 390px;
+				}
+
+				@media (max-width: 580px) {
+					height: auto;
+				}
+				@apply bg-bg p-9 rounded-3xl;
+				.upper_section {
+					@apply flex;
+
+					.reviewImg {
+						width: 70px !important;
+						height: 70px !important;
+						// border-radius: %;
+
+						@apply rounded-lg;
+						// overflow: hidden;
+						// display: flex;
+						// justify-content: center;
+						// background-image: url('../../../../../public/reviews/Denys_Dudnyk.jpg');
+						background-repeat: no-repeat;
+						background-size: cover;
+						background-position: center;
+					}
+
+					.name_reviewer {
+						@apply ml-7;
+						> h1 {
+							font-size: 20px;
+
+							@apply pb-0 font-semibold text-h1;
+						}
+
+						> h2 {
+							@apply text-base font-medium opacity-80 text-h1;
+							// @apply mt-2;
+							display: block;
+							@media (max-width: 580px) {
+								display: none;
+								// display: none;
+								// @apply text-xs;
+								// display: block;
+							}
+						}
+					}
+				}
+
+				.specialty {
+					display: none;
+					@media (max-width: 580px) {
+						display: block;
+						// @apply text-xs;
+						// display: block;
+					}
+
+					> h2 {
+						@apply text-base font-medium opacity-80 text-h1;
+						@apply mt-2;
+						@media (max-width: 580px) {
+							// display: none;
+							// @apply text-xs;
+							// display: block;
+						}
+					}
+
+					.line {
+						width: auto;
+						// border-top: 1px solid gray;
+						@apply mt-2;
+						border: 1px solid rgba(0, 0, 0, 0.125);
+					}
+				}
+
+				> p {
+					@apply pt-8 text-base  font-medium opacity-70 text-h1;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,128 @@
+{
+	"h1": "Enroll in a Slovak university with our help!",
+	"h2": "We provide a full range of services for students wishing to continue their education abroad, from consultations and preparation of documents to support in obtaining visas and finding housing. Contact us today to begin your education abroad journey!",
+	"btn": "Get started now",
+	"change-locale": "RU",
+	"Contact_us": "Contact us",
+	"title_home": "Home",
+	"description_home": "The Education in Slovakia company helps every applicant to get an education in Slovakia. We provide services of guaranteed admission to Slovak universities and resolve all issues related to this process. Education in Slovakia specialists carry out any tasks related to the preparation of documents for admission, obtaining a visa and finding a place of residence in this country. With Education in Slovakia, it's easy to enter Slovakian universities!",
+
+	"block_university": {
+		"title": "Choose a university in Slovakia",
+		"btn_more": "More details"
+	},
+	"block_problems": {
+		"title": "Problems and solutions for independent admission",
+		"product_items": {
+			"item1": "Insufficient level of knowledge of the Slovak language and lack of time for preparation",
+			"item2": "We prepare a complete package of documents in accordance with the current requirements of universities",
+			"item3": "Errors in translation and certification of documents",
+			"item4": "We work with the best translators and notaries",
+			"item5": "Providing an incomplete list, failure to meet deadlines and late delivery or loss of documents",
+			"item6": "We comply with the established deadlines for submission, control the process of document processing by the admissions committee and achieve a positive decision",
+			"item7": "Difficulties in finding housing, lack of available rooms in hostels",
+			"item8": "We select and book a suitable accommodation option in advance",
+			"item9": "Collection of an incomplete package of documents for obtaining a student visa, refusal from the embassy",
+			"item10": "We help you prepare all the documents for a residence permit and obtain a student visa",
+			"item11": "Difficulties with obtaining a student card, enrolling in courses, obtaining registration, insurance and a bank account",
+			"item12": "We meet you on site and together resolve final matters in Slovakia!"
+		}
+	},
+
+	"block_services": {
+		"title": "Our services",
+		"description": "Our team will not only help you choose a Slovak university, but will also prepare for you the entire package of documents required for admission. We also provide assistance in obtaining a student visa and accompany you at all stages of admission to a university.",
+		"services_items": {
+			"item1": {
+				"number": "Step 01",
+				"title": "Selecting a university in Slovakia",
+				"subTitle": "As part of an individual consultation, we will choose the most suitable specialty and draw up a step-by-step plan for admission.",
+				"link": "Select a university",
+				"uniTitle": "University of Constantine the Philosopher in Nitra",
+				"btnLink": "More details"
+			},
+			"item2": {
+				"number": "Step 02",
+				"title": "We organize admission to the university",
+				"subTitle": "We will independently certify, apostille, translate and carefully prepare a complete package of documents for admission, taking into account all the subtleties of the requirements of the admissions committee of each university."
+			},
+			"item3": {
+				"number": "Step 03",
+				"title": "We will find you accommodation",
+				"subTitle": "Despite high demand and a waiting period of up to 6 months, we will promptly select a suitable room in one of the hostels based on your wishes and budget."
+			},
+			"item4": {
+				"number": "Step 04",
+				"title": "We will help with the students. visa",
+				"subTitle": "Obtaining a student permit to stay in Slovakia is the most important stage of admission, where there is no room for error. Our task is to help you quickly collect all the documents and get a visa the first time in the shortest possible time."
+			},
+			"item5": {
+				"number": "Step 05",
+				"title": "We meet and accompany",
+				"subTitle": "We will meet you, place you in a hostel, register you for courses and at the university, arrange registration, insurance and a bank account, and help you quickly get comfortable in a new country."
+			},
+			"item6": {
+				"title": "You are a satisfied student!",
+				"subTitle": "When all the difficulties with admission, booking housing, obtaining a residence permit and coming to Slovakia are over, your only task will remain successful studies and achieving personal goals.",
+				"btnLink": "Consultation"
+			}
+		}
+	},
+
+	"block_reviews": {
+		"title": "Reviews of our clients",
+		"description": "Find out what our clients say about our services for admission to Slovak universities."
+	},
+
+	"universities": {
+		"ukf": {
+			"name": "University of Constantine the Philosopher in Nitra",
+			"info": "Information about the university",
+			"webpage": "University website",
+			"originalName": "Original name:",
+			"internationalName": "International name:",
+			"year": "Year of foundation:",
+			"type": "Type:",
+			"public": "Public",
+			"rector": "Rector:",
+			"rectorName": "Libor Vozar"
+		},
+
+		"umb": {
+			"name": "Matej Bel University in Banska Bystrica",
+			"info": "Information about the university",
+			"webpage": "University website",
+			"originalName": "Original name:",
+			"internationalName": "International name:",
+			"year": "Year of foundation:",
+			"type": "Type:",
+			"public": "Public",
+			"rector": "Rector:",
+			"rectorName": "Vladimir Hiadlovsky"
+		},
+		"truni": {
+			"name": "Trnava University in Trnava",
+			"info": "Information about the university",
+			"webpage": "University website",
+			"originalName": "Original name:",
+			"internationalName": "International name:",
+			"year": "Year of foundation:",
+			"type": "Type:",
+			"public": "Public",
+			"rector": "Rector:",
+			"rectorName": "René Bílik"
+		}
+	},
+
+	"block_ukf": {
+		"faculty": "University faculties and specialties",
+		"ff": "Philosophical Faculty",
+		"fpvai": "Faculty of Natural Sciences and Informatics",
+		"fss": "Faculty of Central European Studies",
+		"pf": "Faculty of Pedagogy",
+		"length": "Training length",
+		"language": "Language of instruction",
+		"deadline": "Deadline for applications",
+		"description": "Graduate Employment"
+	}
+}

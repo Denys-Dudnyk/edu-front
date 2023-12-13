@@ -1,0 +1,126 @@
+.homebanner {
+	@apply mb-12 mt-12;
+
+	.bannerContainer {
+		max-width: 1200px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 20px;
+		padding-right: 20px;
+
+		.homeBannerCont {
+			@apply bg-bg;
+			border-radius: 10px;
+
+			.bannerTop {
+				@apply w-full relative p-9;
+
+				background-image: url('../../../../../public/Universities/ukf_bg.jpg');
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				border-radius: 10px;
+				content: '';
+				display: block;
+				height: 462px;
+
+				.bg {
+					&::after {
+						content: '';
+
+						@apply w-full h-full block absolute top-0 left-0;
+
+						background: linear-gradient(
+							180deg,
+							rgba(196, 196, 196, 0) 0%,
+							rgba(0, 0, 0, 0) 0.01%,
+							#000000 100%
+						);
+					}
+				}
+
+				.homeBanner_info {
+					@apply relative z-1 flex flex-col justify-end h-full;
+
+					.uniName {
+						.title {
+							@apply text-white mb-2 font-bold text-xl;
+							line-height: 22px;
+						}
+
+						.row {
+							@apply flex flex-wrap;
+							// margin-right: -15px;
+							// margin-left: -15px;
+							.col {
+								-webkit-box-flex: 0;
+								-ms-flex: 0 0 75%;
+								flex: 0 0 75%;
+								max-width: 75%;
+								min-height: 1px;
+								@apply relative w-full;
+
+								> h1 {
+									// max-width: 460px;
+									@apply text-white font-bold;
+									font-size: 40px;
+									line-height: 48px;
+									margin-bottom: 8px;
+
+									@media (max-width: 356px) {
+										font-size: 30px;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+
+			.bannerBottom {
+				@apply p-9;
+
+				.row {
+					@apply flex flex-wrap justify-between items-center;
+					.col {
+						@apply font-light text-lg mb-2;
+						line-height: 22px;
+					}
+					.btn {
+						> a {
+							@apply text-xs rounded flex items-center justify-center transition-colors;
+							padding: 10px 18px;
+							background: #e7e7e7;
+							width: -webkit-max-content;
+							width: -moz-max-content;
+							width: max-content;
+							height: auto;
+
+							&:hover {
+								@apply bg-yellow text-white;
+							}
+						}
+					}
+				}
+
+				.items_info {
+					@apply flex flex-wrap mt-7;
+
+					.item {
+						@apply mr-9 mb-4;
+
+						.subtitle {
+							@apply text-h2 mb-1 text-sm;
+							line-height: 20px;
+							max-width: 370px;
+
+							&:first-child {
+								@apply text-black;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

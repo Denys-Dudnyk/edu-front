@@ -1,0 +1,91 @@
+.item {
+	border-radius: 24px;
+	@apply bg-bg;
+	color: #000;
+	padding: 32px 40px;
+
+	position: relative;
+	// overflow: hidden;
+
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: contain;
+
+	@media (max-width: 992px) {
+		// padding-bottom: 22px;
+		// padding-top: 33px;
+		// padding-left: 24px;
+		height: 479px;
+		// display: grid;
+		// grid-template-columns: repeat(2);
+		// width: 100%;
+	}
+
+	// background-image: url('../../../../../../public/Universities/kom.png');
+	&:nth-child(2) {
+		background-image: url('../../../../../../public/Universities/kom.png');
+		@media (max-width: 992px) {
+			// padding-bottom: 22px;
+			// padding-top: 33px;
+			// padding-left: 24px;
+			height: 600px;
+			width: auto;
+			// display: grid;
+			// grid-template-columns: repeat(2);
+			// width: 100%;
+			background-repeat: no-repeat;
+			background-position: right bottom;
+			background-size: auto;
+		}
+
+		@media (max-width: 552px) {
+			background-image: none;
+			height: auto;
+		}
+	}
+	&:nth-child(3) {
+		background-image: url('../../../../../../public/Universities/ubyt.png');
+
+		@media (max-width: 320px) {
+			background-image: none;
+			height: auto;
+		}
+	}
+	&:nth-child(4) {
+		@apply bg-blue text-white;
+		background-image: url('../../../../../../public/Universities/flag3.png');
+	}
+	&:nth-child(5) {
+		@apply text-black;
+		background-image: url('../../../../../../public/Universities/man.png');
+
+		@media (max-width: 785px) {
+			background-image: none;
+			height: auto;
+		}
+	}
+
+	.number {
+		@apply w-max py-1 px-3 bg-yellow rounded mb-4;
+		padding-top: 6px;
+		font-size: 12px;
+		line-height: 16px;
+		color: #000;
+	}
+
+	.title {
+		@apply mb-4 flex text-lg;
+		line-height: 22px;
+		font-weight: 700;
+	}
+
+	.subTitle {
+		@apply mb-14 text-sm text-left flex items-center;
+		line-height: 20px;
+		max-width: 485px;
+
+		> svg {
+			@apply ml-2;
+		}
+	}
+}

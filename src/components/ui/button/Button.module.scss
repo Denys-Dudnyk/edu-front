@@ -1,0 +1,11 @@
+.button {
+	font-size: 19px;
+	@apply text-white bg-yellow rounded-xl font-semibold px-4 py-2  transition-all;
+	box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 0.1);
+	&:hover {
+		box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 0.3);
+		transform: translateY(-6px);
+		transition: 0.4s;
+		@apply bg-blue;
+	}
+}

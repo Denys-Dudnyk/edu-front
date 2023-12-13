@@ -1,0 +1,19 @@
+.studium {
+	.studiumContainer {
+		max-width: 1200px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 20px;
+		padding-right: 20px;
+
+		.studiumCont {
+			@apply bg-bg p-5 mb-6;
+			border-radius: 10px;
+
+			.title {
+				@apply mb-6 text-xl font-bold;
+				line-height: 22px;
+			}
+		}
+	}
+}

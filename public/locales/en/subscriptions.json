@@ -1,0 +1,56 @@
+{
+	"btn": "More details",
+	"package-info": "What is included in the subscription?",
+	"package-info2": "What is included in ",
+	"package-notInfo": "What is not included in the subscription?",
+
+	"info1": "In order to move and obtain higher education with minimal investments in Slovakia, you need to solve four tasks: admission, finding housing, issuing a student visa and residence permit.",
+	"info2": "We have developed optimal packages of services that will help you to become a student of a European university without wasting time and money.",
+	"section-title": "Select a service",
+
+	"standart": {
+		"item1": "Preliminary questionnaire for the determination of educational areas.",
+		"item2": "Submitting an application (we offer options to choose from after a preliminary study of the client's questionnaire).",
+		"item3": "Payment of the fee associated with submitting documents to the university.",
+		"item4": "Judicial transfer of certificate grades to the Slovak system.",
+		"item5": "Applying for a university dormitory.",
+		"item6": "Receipt of confirmation of the provision of a dormitory.",
+		"item7": "Applying for a student card and paying the fee.",
+		"item8": "Preparation of a package of documents for submission to the police for a residence permit.",
+		"item9": "Accompaniment for enrollment to the university.",
+		"item10": "Initial instruction in working with the information system for students (compilation of the study plan, recording on the semester schedule).",
+		"item11": "Accompaniment to the police for submitting documents and obtaining residence permit documents.",
+
+		"not-included": "Nostrification of a school certificate or diploma (copies of documents and fees), nostrification is paid separately.<br><br>Preparation of a package of documents for applying for a national visa D (if required) is paid separately. <br><br>Conclusion of a medical insurance agreement (optional, insurance, paid separately). <br><br>Registration of preferential travel documents (for students under 26 years old). <br><br>Registration of benefits (for students under 26 years old).<br><br>Opening a bank account (support). <br><br>Certificate of good conduct with an apostille from your home country and from countries in which you have lived for at least 90 days within six months over the last 3 years (done by the customer himself). <br><br>The state fee to the police for issuing a residence permit card is 4.50 € or 24.50 € (expedited 3 days after approval). <br><br>Placing an apostille on a certificate in the home country (done by the customer himself). <br><br>Registration for a medical examination (city of your choice), medical examination is paid separately."
+	},
+
+	"optimum": {
+		"item1": "Preliminary questionnaire for the determination of educational areas.",
+		"item2": "Submitting an application (we offer options to choose from after a preliminary study of the client's questionnaire).",
+		"item3": "Payment of the fee associated with submitting documents to the university.",
+		"item4": "Nostrification of a school certificate or diploma (copies of documents and duty), nostrification is paid separately.",
+
+		"item5": "Judicial transfer of certificate grades to the Slovak system.",
+		"item6": "Applying for a university dormitory.",
+		"item7": "Receipt of confirmation of the provision of a dormitory.",
+		"item8": "Applying for a student card and paying the fee.",
+		"item9": "Preparation of a package of documents for application for a national visa D (if required) is paid separately.",
+		"item10": "Preparation of a package of documents for submission to the police for a residence permit.",
+		"item11": "Accompaniment for enrollment to the university.",
+		"item12": "Initial instruction in working with the information system for students (compilation of the study plan, recording on the semester schedule).",
+		"item13": "Accompaniment to the police for submitting documents and obtaining residence permit documents.",
+		"item14": "Appointment for a medical examination (city of choice), medical examination is paid separately.",
+		"item15": "Conclusion of a health insurance contract (optional, insurance is paid separately).",
+		"item16": "Issuance of preferential travel documents (for students under the age of 26).",
+		"item17": "Application for assistance (for students under 26 years of age).",
+		"item18": "Opening a bank account (support).",
+
+		"not-included": "Certificate of good conduct with an apostille from your home country and from countries in which you have lived for at least 90 days within six months over the last 3 years. (done by the customer himself).<br><br>The state fee to the police for issuing a residence permit card is 4.50 € or 24.50 € (expedited 3 days after approval).<br><br>Placing an apostille on a certificate in the home country (done by the customer himself)."
+	},
+
+	"premium": {
+		"all-included": "When you choose our «Premium service», we take full responsibility for all your admission and residency tasks.<br><br>What does this mean for you? You only provide us with your documents with your wishes, and then we will do everything for you. After the successful completion of our work, we guarantee support for 1 academic year.<br><br>The «Premium subscription»  is time and effort saved. You can fully trust our team of experts and we will ensure that your introduction becomes a reality without involving you in all the details of the implementation. It is convenient, reliable and effective. Trust us and we'll do the rest!"
+	},
+
+	"bestseller": "Bestseller"
+}

@@ -1,0 +1,8 @@
+.hamburgerMenu {
+	@apply bg-white w-full h-full fixed top-[6rem] z-3 flex flex-col pt-8 items-center overflow-y-hidden;
+
+	// position: fixed;
+
+	// height: 100vh;
+	// overflow-y: hidden;
+}

@@ -1,0 +1,95 @@
+.nav {
+	@apply flex items-center gap-1 md:gap-7;
+	@media (max-width: 570px) {
+		> li {
+			@apply hidden;
+		}
+		> button {
+			@apply hidden;
+		}
+	}
+	@media (max-width: 992px) {
+		> li {
+			@apply hidden;
+		}
+	}
+
+	&.verticalNav {
+		@apply flex flex-col gap-16;
+
+		@media (max-width: 768px) {
+			@apply gap-10;
+		}
+
+		> li {
+			@apply block;
+		}
+		> button {
+			@apply block;
+		}
+	}
+}
+
+.link {
+	> a {
+		@apply text-gray-600  transition-colors relative hover:text-black hidden md:block;
+		font-size: 18px;
+		&:before {
+			content: '';
+			@apply bg-yellow h-2.5 w-full top-full opacity-0;
+		}
+		&:after {
+			content: '';
+			@apply bg-yellow opacity-0 transition-opacity;
+			transition-delay: 0s;
+		}
+		&:hover {
+			&:before {
+				@apply absolute opacity-100;
+				animation: lineUp 0.4s ease forwards;
+			}
+			&:after {
+				@apply opacity-100;
+				transition-delay: 0.3s;
+			}
+		}
+	}
+}
+
+.verticalLink {
+	@apply p-3 transition-all;
+	background-size: 100% 200%;
+	background-image: linear-gradient(to top, #f3f3f3 50%, #fff 50%);
+	&:hover {
+		background-position: 0 100%;
+	}
+	> a {
+		@apply text-gray-600 text-3xl transition-colors hover:text-black;
+
+		@media (max-width: 425px) {
+			@apply text-2xl;
+		}
+	}
+}
+
+@keyframes lineUp {
+	0% {
+		transform-origin: 50% 100%;
+		transform: scale3d(1, 0.045, 1);
+	}
+
+	50% {
+		transform-origin: 50% 100%;
+		transform: scale3d(1, 1, 1);
+	}
+
+	51% {
+		transform-origin: 50% 0%;
+		transform: scale3d(1, 1, 1);
+	}
+
+	100% {
+		transform-origin: 50% 0%;
+		transform: scale3d(1, 0.045, 1);
+	}
+}

@@ -1,0 +1,33 @@
+.navContainer {
+	@apply flex items-center;
+
+	> span {
+		@apply hidden;
+		@media (max-width: 992px) {
+			@apply block ml-4;
+		}
+	}
+}
+
+.header {
+	@apply items-center py-4 z-4  item-shadow   top-0 left-0 w-full;
+
+	.container {
+		@apply flex  justify-between mt-2 mb-1 items-center;
+		max-width: 1536px;
+
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-left: auto;
+		margin-right: auto;
+
+		> a {
+			> img {
+				@media (max-width: 536px) {
+					width: 190px;
+					// height: 48px;
+				}
+			}
+		}
+	}
+}
