@@ -1,7 +1,6 @@
 {
 	"name": "sigmanit",
 	"version": "0.1.0",
-	"homepage": ".",
 	"scripts": {
 		"dev": "next dev ",
 		"build": "next build",
